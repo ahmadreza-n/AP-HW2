@@ -1,0 +1,71 @@
+.chasbide {
+    padding: 0.5% !important;
+    margin: 0.5% !important;
+    margin-left: 0% !important;
+}
+
+.hey {
+    position: relative !important;
+
+    top: 300px !important;
+}
+
+.me {
+    border-right: 5px solid #64b5f6;
+    border-left: 0px solid white !important;
+    margin: 0px 20px !important;
+    padding-left: 0rem !important;
+    padding-right: 1.5rem;
+    text-align: right;
+}
+
+.opponent {
+
+}
+
+a {
+    color: white !important;
+}
+
+.collection-item {
+    background-color: #009688 !important;
+    height: 84px !important;
+}
+
+.title {
+    color: black !important;
+    font-weight: bold;
+}
+
+#topBar {
+    margin-bottom: 2px;
+
+}
+
+#searchBar {
+    margin-bottom: 1px;
+}
+
+#opponentID {
+    margin-bottom: 1px;
+}
+
+.collection {
+    margin-top: 0px;
+}
+
+.body {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.temp {
+    display: inline-block;
+    position: relative;
+
+    width: 42px;
+    height: 42px;
+   
+    margin: 10px;
+    vertical-align: middle;
+}

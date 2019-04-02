@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" href="style.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Telegram Web</title>
+</head>
+
+<body>
+    <div id="mainBody" class="container">
+
+        <div id="header" class="row">
+
+            <div id="topBar" class="col s12">
+                <nav>
+                    <div class="nav-wrapper teal">
+                        <a href="#" class="brand-logo" style="font-size: x-large;"><i class="material-icons"
+                                onclick="ShowSettings()">menu</i>Telegram</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div id="searchBar" class="col s3">
+                <nav>
+                    <div class="nav-wrapper teal">
+                        <form>
+                            <div class="input-field ">
+                                <input id="search" type="search" required>
+                                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                <i class="material-icons">close</i>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+
+            <div id="opponentID" class="col s9">
+                <nav>
+                    <div class="nav-wrapper teal">
+                            <img src="test.jpg" alt="profile Picture" class="temp circle" />
+
+                            <span class="title">Sexy Lady</span>
+                    </div>
+                </nav>
+            </div>
+
+            <div id="people" class="col s3">
+
+                <!-- <div class="card teal">
+                    <div class="card-content white-text">
+                        <div class="col s2 chasbide ">
+                            <img src="test.jpg" alt="profile Picture" class="circle responsive-img" />
+                        </div>
+                        <span class="card-title">Name</span>
+                        <p>Last pm</p>
+                    </div>
+                </div>
+
+                <div class="card teal">
+                    <div class="card-content white-text">
+                        <div class="col s2 chasbide">
+                            <img src="test.jpg" alt="profile Picture" class="circle responsive-img" />
+                        </div>
+                        <span class="card-title">Name</span>
+                        <p>Last pm</p>
+                    </div>
+                </div>
+
+                <div class="card teal">
+                    <div class="card-content white-text">
+                        <div class="col s2 chasbide ">
+                            <img src="test.jpg" alt="profile Picture" class="circle responsive-img" />
+                        </div>
+                        <span class="card-title">Name</span>
+                        <p>Last pm</p>
+                    </div>
+                </div> -->
+                <ul class="collection">
+                    <a href="#!" onclick="ShowSettings()">
+                        <li class="collection-item avatar">
+                            <img src="test.jpg" alt="" class="circle">
+                            <span class="title">Sexy Lady</span>
+                            <p>
+                                Hey sexy lady...
+                            </p>
+
+                        </li>
+                    </a>
+                    <div class="divider"></div>
+                    <a href="#!" onclick="ShowSettings()">
+                        <li class="collection-item avatar">
+                            <img src="test.jpg" alt="" class="circle">
+                            <span class="title">Sexy bitch</span>
+                            <p>
+                                Damn, girl!
+                            </p>
+
+                        </li>
+                    </a>
+                    <div class="divider"></div>
+                    <a href="#!" onclick="ShowSettings()">
+                        <li class="collection-item avatar">
+                            <img src="test.jpg" alt="" class="circle">
+                            <span class="title">Life's a bitch</span>
+                            <p>
+                                That's right
+                            </p>
+
+                        </li>
+                    </a>
+                    <div class="divider"></div>
+                    <a href="#!" onclick="ShowSettings()">
+                        <li class="collection-item avatar">
+                            <img src="test.jpg" alt="" class="circle">
+                            <span class="title">Name</span>
+                            <p>
+                                Last message
+                            </p>
+
+                        </li>
+                    </a>
+                </ul>
+
+            </div>
+
+            <div id="chatBox" class="col s9">
+
+                <div id="history">
+                    <blockquote class="opponent">
+                        How was holidays?
+                    </blockquote>
+
+                    <blockquote class="me">
+                        Fucking Terrible.
+                    </blockquote>
+
+                    <blockquote class="opponent">
+                        Haha.
+                    </blockquote>
+
+                    <blockquote class="me">
+                        Fuck off.
+                    </blockquote>
+                </div>
+
+                <div id="textArea" class="">
+                    <form>
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">send</i>
+                            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">Type your message...</label>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        function ShowSettings() {
+            document.getElementById("mainBody").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
